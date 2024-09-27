@@ -5,7 +5,7 @@ FROM golang:${GO_VERSION}-alpine as build
 # Necessary to run 'go get' and to compile the linked binary
 RUN apk add git musl-dev mailcap
 
-WORKDIR /go/src/github.com/dutchcoders/transfer.sh
+WORKDIR /go/src/github.com/jaschadub/transfer.sh
 
 COPY go.mod go.sum ./
 
@@ -14,7 +14,7 @@ RUN go mod download
 COPY . .
 
 # build & install server
-RUN CGO_ENABLED=0 go build -tags netgo -ldflags "-X github.com/dutchcoders/transfer.sh/cmd.Version=$(git describe --tags) -a -s -w -extldflags '-static'" -o /go/bin/transfersh
+RUN CGO_ENABLED=0 go build -tags netgo -ldflags "-X github.com/jaschadub/transfer.sh/cmd.Version=$(git describe --tags) -a -s -w -extldflags '-static'" -o /go/bin/transfersh
 
 ARG PUID=5000 \
     PGID=5000 \
