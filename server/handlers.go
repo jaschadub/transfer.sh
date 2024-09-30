@@ -57,7 +57,7 @@ import (
 	"github.com/ProtonMail/go-crypto/openpgp/armor"
 	"github.com/ProtonMail/go-crypto/openpgp/packet"
 	"github.com/ProtonMail/gopenpgp/v2/constants"
-	"github.com/dutchcoders/transfer.sh/server/storage"
+	"github.com/jaschadub/transfer.sh/server/storage"
 	"github.com/tg123/go-htpasswd"
 	"github.com/tomasen/realip"
 

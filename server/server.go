@@ -53,7 +53,7 @@ import (
 	"golang.org/x/crypto/acme/autocert"
 
 	web "github.com/jaschadub/transfer.sh-web"
-	"github.com/dutchcoders/transfer.sh/server/storage"
+	"github.com/jaschadub/transfer.sh/server/storage"
 	assetfs "github.com/elazarl/go-bindata-assetfs"
 )
 

@@ -20,7 +20,7 @@ require (
 	github.com/golang/gddo v0.0.0-20210115222349-20d68f94ee1f
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/mux v1.8.0
-	github.com/jaschadub/transfer.sh-web 8792fc62489a0ca5d01f490f22fef682c4784275
+	github.com/jaschadub/transfer.sh-web v0.0.2-test
 	github.com/microcosm-cc/bluemonday v1.0.23
 	github.com/russross/blackfriday/v2 v2.1.0
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
