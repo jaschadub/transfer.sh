@@ -52,7 +52,7 @@ import (
 	"github.com/tg123/go-htpasswd"
 	"golang.org/x/crypto/acme/autocert"
 
-	web "github.com/dutchcoders/transfer.sh-web"
+	web "github.com/jaschadub/transfer.sh-web"
 	"github.com/dutchcoders/transfer.sh/server/storage"
 	assetfs "github.com/elazarl/go-bindata-assetfs"
 )
