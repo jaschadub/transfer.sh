@@ -61,7 +61,7 @@ import (
 	"github.com/tg123/go-htpasswd"
 	"github.com/tomasen/realip"
 
-	web "github.com/dutchcoders/transfer.sh-web"
+	web "github.com/jaschadub/transfer.sh-web"
 	"github.com/gorilla/mux"
 	"github.com/microcosm-cc/bluemonday"
 	blackfriday "github.com/russross/blackfriday/v2"
