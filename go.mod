@@ -14,7 +14,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.33.1
 	github.com/dutchcoders/go-clamd v0.0.0-20170520113014-b970184f4d9e
 	github.com/dutchcoders/go-virustotal v0.0.0-20140923143438-24cc8e6fa329
-	github.com/jaschadub/transfer.sh-web v0.0.0-8792fc62489a0ca5d01f490f22fef682c4784275
+	github.com/jaschadub/transfer.sh-web 8792fc62489a0ca5d01f490f22fef682c4784275
 	github.com/elazarl/go-bindata-assetfs v1.0.1
 	github.com/fatih/color v1.14.1
 	github.com/golang/gddo v0.0.0-20210115222349-20d68f94ee1f
